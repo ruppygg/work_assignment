@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Information</title>
+</head>
+<body>
+    <h2>Patient Form</h2>
+    <form action="#" method="post">
+        
+        <label for="patient_name">Patient Name:</label>
+        <input type="text" id="patient_name" name="patient_name" required><br><br>
+
+        
+        <label for="patient_email">Patient Email:</label>
+        <input type="email" id="patient_email" name="patient_email" required><br><br>
+
+       
+        <label for="patient_password">Password:</label>
+        <input type="password" id="patient_password" name="patient_password" required><br><br>
+
+     
+        <label for="patient_contact">Contact Number:</label>
+        <input type="tel" id="patient_contact" name="patient_contact" required><br><br>
+
+        
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="date" id="date_of_birth" name="date_of_birth" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="medical_history">Medical History:</label><br>
+        <textarea id="medical_history" name="medical_history" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">I consent to the use of my information for medical purposes.</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
